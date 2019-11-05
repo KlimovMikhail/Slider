@@ -1,0 +1,9 @@
+.card {
+  border: 1px solid black;
+  margin: 0 1px;
+}
+.card-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: blue;
+}

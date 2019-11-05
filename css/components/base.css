@@ -1,0 +1,84 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+html {	
+	font-family: "Segoe WPN";
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 36px;
+	background-color:#ffffff;
+	color: #909090;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+a, .link {
+	color: #6c6c6c;
+	text-decoration: none;
+}
+
+a:hover, .link:hover {
+	color: #5094f2;
+	text-decoration: underline;
+} 
+
+img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+p, ul, ol, figure {
+	margin: 0;
+}
+
+* + p, * + ul, * + ol, * + figure {
+	margin-top: 0;	
+}
+
+ul > li > ol,
+ul > li > ul,
+ol > li > ol,
+ol > li > ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6  {
+	margin-top: 0;	
+}
+
+.swiper-container .swiper-slide {
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.swiper-container {
+
+	padding-bottom: 40px;
+}
+
+.container-tiger {
+	padding-bottom: 10px;
+	width: 350px;
+	margin: 0 auto;
+}
+
+.slick-prev, .slick-next {
+	background-color: black
+}
+
+.slick-prev:hover, .slick-prev:focus,
+.slick-next:hover, .slick-next:focus  {
+	background-color: green;
+}
